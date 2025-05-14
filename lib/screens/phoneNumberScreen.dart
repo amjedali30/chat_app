@@ -1,7 +1,7 @@
-import 'package:chat_app/otpVerifyScreen.dart';
+import 'package:chat_app/screens/otpVerifyScreen.dart';
 import 'package:flutter/material.dart';
 
-import 'services/apiService.dart';
+import '../services/apiService.dart';
 
 class PhoneNumberScreen extends StatefulWidget {
   const PhoneNumberScreen({Key? key}) : super(key: key);

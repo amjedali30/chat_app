@@ -1,9 +1,9 @@
-import 'package:chat_app/showContact.dart';
+import 'package:chat_app/screens/showContact.dart';
 import 'package:flutter/material.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'services/apiService.dart';
+import '../services/apiService.dart';
 
 class OTPVerificationScreen extends StatefulWidget {
   final String phoneNumber;

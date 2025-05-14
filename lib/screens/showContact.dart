@@ -1,6 +1,6 @@
-import 'package:chat_app/messageScreen.dart';
+import 'package:chat_app/screens/messageScreen.dart';
 import 'package:flutter/material.dart';
-import 'services/apiService.dart';
+import '../services/apiService.dart';
 
 class MessagingScreen extends StatefulWidget {
   const MessagingScreen({Key? key}) : super(key: key);
